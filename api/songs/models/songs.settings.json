@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "songs",
+  "info": {
+    "name": "Songs"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "uniqueUrl": {
+      "type": "uid",
+      "required": true
+    },
+    "richText": {
+      "type": "richtext"
+    }
+  }
+}

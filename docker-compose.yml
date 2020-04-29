@@ -1,0 +1,23 @@
+version: "3"
+services:
+  db:
+    image: "postgres:11.5"
+    container_name: "how_db"
+    environment:
+      - POSTGRES_DB=how_db
+      - POSTGRES_USER=howAdmin
+      - POSTGRES_PASSWORD=localPasswd
+    ports:
+      - "54320:5432"
+    volumes:
+      - my_dbdata:/var/lib/postgresql/data
+  pgadmin4:
+    image: "dpage/pgadmin4:latest"
+    container_name: "pgadmin4"
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=how@sitestailors.com
+      - PGADMIN_DEFAULT_PASSWORD=localPasswd
+    ports:
+      - "8080:80"
+volumes:
+  my_dbdata:

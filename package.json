@@ -1,0 +1,41 @@
+{
+  "name": "NextJS-Strapi-RTL",
+  "private": false,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {
+    "css-loader": "^3.5.3"
+  },
+  "dependencies": {
+    "draft-js": "^0.11.5",
+    "knex": "<0.20.0",
+    "pg": "^8.0.3",
+    "react-draft-wysiwyg": "^1.14.5",
+    "strapi": "3.0.0-beta.19.5",
+    "strapi-admin": "3.0.0-beta.19.5",
+    "strapi-connector-bookshelf": "3.0.0-beta.19.5",
+    "strapi-plugin-content-manager": "3.0.0-beta.19.5",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.19.5",
+    "strapi-plugin-email": "3.0.0-beta.19.5",
+    "strapi-plugin-upload": "3.0.0-beta.19.5",
+    "strapi-plugin-users-permissions": "3.0.0-beta.19.5",
+    "strapi-utils": "3.0.0-beta.19.5"
+  },
+  "author": {
+    "name": "SitestTailors"
+  },
+  "strapi": {
+    "uuid": "4336eb3f-3fd8-4565-b71c-21403fe9d663"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
