@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css'
+import './custom.css'
 import Logo from 'strapi-admin/admin/src/assets/images/logo-strapi.png';
 
 

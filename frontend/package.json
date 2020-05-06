@@ -1,0 +1,33 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "NextJS-Strapi-RTL frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sitestailors/NextJS-Strapi-RTL.git"
+  },
+  "keywords": [
+    "nextjs",
+    "strapi",
+    "rtl"
+  ],
+  "author": "SitestTailors LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sitestailors/NextJS-Strapi-RTL/issues"
+  },
+  "homepage": "https://github.com/sitestailors/NextJS-Strapi-RTL#readme",
+  "dependencies": {
+    "next": "^9.3.6",
+    "node-fetch": "^2.6.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

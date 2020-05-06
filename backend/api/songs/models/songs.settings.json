@@ -10,16 +10,14 @@
     "timestamps": true
   },
   "attributes": {
-    "content": {
-      "type": "text",
-      "required": true
-    },
     "uniqueUrl": {
-      "type": "uid",
-      "required": true
+      "type": "string",
+      "required": true,
+      "unique": true
     },
-    "richText": {
-      "type": "richtext"
+    "content": {
+      "type": "richtext",
+      "required": false
     }
   }
 }
