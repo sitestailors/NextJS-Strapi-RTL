@@ -1,6 +1,6 @@
 # NextJS-Strapi-RTL
 
-Since Strapi wasn't offering RTL for the adming panel out of the box this project is started to solve this issue.
+Since Strapi wasn't offering RTL for the admin panel out of the box this project is started to solve this issue.
 
 ## Dependencies
 
